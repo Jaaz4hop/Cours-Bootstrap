@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="card bg-light p-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1" href="#">Mon super menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link fs-2 text-black" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled fs-2" href="#">Menu 1</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-2 text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu déroulant</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item fs-2" href="#">Super sous menu 1</a></li>
+                    <li><a class="dropdown-item fs-2" href="#">Super sous menu 2</a></li>
+                </ul>
+            </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <nav class="nav">
+            <h2 class="align-self-center">Mon super menu</h2>
+            <a class="nav-link fs-2 text-black" aria-current="page" href="#">Accueil</a>
+            <a class="nav-link disabled fs-2" href="#">Menu 1</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-2 text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu déroulant</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item fs-2" href="#">Super sous menu 1</a></li>
+                    <li><a class="dropdown-item fs-2" href="#">Super sous menu 2</a></li>
+                </ul>
+            </li>
+        </nav> -->
+    </header>
+    <main>
+        <div class="card-group my-4">
+            <div class="card">
+                <img src="https://picsum.photos/id/10/200?random=1" class="card-img-top" alt="randomly generated img">
+                <div class="card-body">
+                    <h3 class="card-title fs-1 fw-semibold text-center">Article 1</h3>
+                    <p class="card-text fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue ligula, lobortis nec hendrerit non, tempus at urna. Aenean tincidunt lacus sit amet orci commodo, eget auctor dolor elementum. Etiam ac sagittis tortor.</p>
+                    <div class="text-end"><a href="#" class="btn btn-secondary fs-4">Lire plus</a></div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/11/200?random=1" class="card-img-top" alt="randomly generated img">
+                <div class="card-body">
+                    <h3 class="card-title fs-1 fw-semibold text-center">Article 2</h3>
+                    <p class="card-text fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue ligula, lobortis nec hendrerit non, tempus at urna. Aenean tincidunt lacus sit amet orci commodo, eget auctor dolor elementum. Etiam ac sagittis tortor.</p>
+                    <div class="text-end"><a href="#" class="btn btn-secondary fs-4">Lire plus</a></div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/12/200?random=1" class="card-img-top" alt="randomly generated img">
+                <div class="card-body">
+                    <h3 class="card-title fs-1 fw-semibold text-center">Article 3</h3>
+                    <p class="card-text fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue ligula, lobortis nec hendrerit non, tempus at urna. Aenean tincidunt lacus sit amet orci commodo, eget auctor dolor elementum. Etiam ac sagittis tortor.</p>
+                    <div class="text-end"><a href="#" class="btn btn-secondary fs-4">Lire plus</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-light p-3">
+            <nav class="nav justify-content-center">
+                <a class="nav-link text-secondary fs-2" aria-current="page" href="#">Accueil</a>
+                <a class="nav-link text-secondary fs-2" href="#">Menu 1</a>
+                <a class="nav-link text-secondary fs-2" href="#">Menu 2</a>
+            </nav>
+        </div>
+    </main>
+    <footer>
+        <h4 class="text-secondary text-center fs-4 fw-semibold mt-4">© 2021 ADRAR Compagny, Inc</h4>
+    </footer>
+</body>
+</html>
