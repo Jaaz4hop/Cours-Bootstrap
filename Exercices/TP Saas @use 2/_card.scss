@@ -1,0 +1,27 @@
+@use 'variables';
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 200px;
+    background-color: variables.$secondary-color;
+    font-family: variables.$font-family-paragraph;
+    font-size: variables.$font-size-paragraph;
+    border-radius: 15px;
+    h2 {
+        color: variables.$primary-color;
+        font-family: variables.$font-family-title;
+        font-size: variables.$font-size-title;
+    }
+    p{
+        color: white;
+    }
+    h3{
+        align-self: end;
+        color: variables.$tertiary-color;
+        font-family: variables.$font-family-title;
+        font-size: variables.$font-size-subtitles;
+    }
+}

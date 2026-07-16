@@ -1,0 +1,25 @@
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 200px;
+  background-color: rgb(66, 57, 57);
+  font-family: arial;
+  font-size: 14px;
+  border-radius: 15px;
+}
+article h2 {
+  color: yellow;
+  font-family: times;
+  font-size: 34px;
+}
+article p {
+  color: white;
+}
+article h3 {
+  align-self: end;
+  color: rgb(255, 174, 0);
+  font-family: times;
+  font-size: 26px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+@mixin article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article {
+    @include article()
+}

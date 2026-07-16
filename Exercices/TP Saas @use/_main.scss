@@ -1,0 +1,10 @@
+@use 'variables';
+
+main {
+    background-color: variables.$tertiary-color;
+}
+
+button{
+    color: variables.$secondary-color;
+    background-color: variables.$primary-color;
+}
